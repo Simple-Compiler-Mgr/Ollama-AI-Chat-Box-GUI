@@ -1,6 +1,6 @@
 # Ollama AI Chat Box
 
-一个基于 SwiftUI 的 macOS 聊天应用，支持多会话历史、灵动岛风格输入框，并集成本地 Ollama AI（如 deepseek-r1:14b）模型，实现本地大模型对话体验。
+一个基于 SwiftUI 的 macOS 聊天应用，支持多会话历史、灵动岛风格输入框，并集成本地 Ollama AI（如 deepseek-r1）模型，实现本地大模型对话体验。
 
 ---
 
