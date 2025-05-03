@@ -258,4 +258,5 @@ struct DynamicIslandInputView: View {
 
 ## License
 
-MIT
+Sompiler
+
