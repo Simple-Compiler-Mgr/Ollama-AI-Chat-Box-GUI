@@ -110,4 +110,4 @@
 
 ## License
 
-MIT
+Sompiler
