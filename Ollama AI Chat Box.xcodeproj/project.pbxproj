@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		66F9A69E2DC600E000933F59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F9A6872DC600DE00933F59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F9A68E2DC600DE00933F59;
+			remoteInfo = "Ollama AI Chat Box";
+		};
+		66F9A6A82DC600E000933F59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F9A6872DC600DE00933F59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F9A68E2DC600DE00933F59;
+			remoteInfo = "Ollama AI Chat Box";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66F9A68F2DC600DE00933F59 /* Ollama AI Chat Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ollama AI Chat Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F9A69D2DC600E000933F59 /* Ollama AI Chat BoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ollama AI Chat BoxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F9A6A72DC600E000933F59 /* Ollama AI Chat BoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ollama AI Chat BoxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		66F9A6912DC600DE00933F59 /* Ollama AI Chat Box */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Ollama AI Chat Box";
+			sourceTree = "<group>";
+		};
+		66F9A6A02DC600E000933F59 /* Ollama AI Chat BoxTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Ollama AI Chat BoxTests";
+			sourceTree = "<group>";
+		};
+		66F9A6AA2DC600E000933F59 /* Ollama AI Chat BoxUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Ollama AI Chat BoxUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66F9A68C2DC600DE00933F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F9A69A2DC600E000933F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F9A6A42DC600E000933F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66F9A6862DC600DE00933F59 = {
+			isa = PBXGroup;
+			children = (
+				66F9A6912DC600DE00933F59 /* Ollama AI Chat Box */,
+				66F9A6A02DC600E000933F59 /* Ollama AI Chat BoxTests */,
+				66F9A6AA2DC600E000933F59 /* Ollama AI Chat BoxUITests */,
+				66F9A6902DC600DE00933F59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66F9A6902DC600DE00933F59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66F9A68F2DC600DE00933F59 /* Ollama AI Chat Box.app */,
+				66F9A69D2DC600E000933F59 /* Ollama AI Chat BoxTests.xctest */,
+				66F9A6A72DC600E000933F59 /* Ollama AI Chat BoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66F9A68E2DC600DE00933F59 /* Ollama AI Chat Box */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F9A6B12DC600E000933F59 /* Build configuration list for PBXNativeTarget "Ollama AI Chat Box" */;
+			buildPhases = (
+				66F9A68B2DC600DE00933F59 /* Sources */,
+				66F9A68C2DC600DE00933F59 /* Frameworks */,
+				66F9A68D2DC600DE00933F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				66F9A6912DC600DE00933F59 /* Ollama AI Chat Box */,
+			);
+			name = "Ollama AI Chat Box";
+			packageProductDependencies = (
+			);
+			productName = "Ollama AI Chat Box";
+			productReference = 66F9A68F2DC600DE00933F59 /* Ollama AI Chat Box.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66F9A69C2DC600E000933F59 /* Ollama AI Chat BoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F9A6B42DC600E000933F59 /* Build configuration list for PBXNativeTarget "Ollama AI Chat BoxTests" */;
+			buildPhases = (
+				66F9A6992DC600E000933F59 /* Sources */,
+				66F9A69A2DC600E000933F59 /* Frameworks */,
+				66F9A69B2DC600E000933F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F9A69F2DC600E000933F59 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				66F9A6A02DC600E000933F59 /* Ollama AI Chat BoxTests */,
+			);
+			name = "Ollama AI Chat BoxTests";
+			packageProductDependencies = (
+			);
+			productName = "Ollama AI Chat BoxTests";
+			productReference = 66F9A69D2DC600E000933F59 /* Ollama AI Chat BoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66F9A6A62DC600E000933F59 /* Ollama AI Chat BoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F9A6B72DC600E000933F59 /* Build configuration list for PBXNativeTarget "Ollama AI Chat BoxUITests" */;
+			buildPhases = (
+				66F9A6A32DC600E000933F59 /* Sources */,
+				66F9A6A42DC600E000933F59 /* Frameworks */,
+				66F9A6A52DC600E000933F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F9A6A92DC600E000933F59 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				66F9A6AA2DC600E000933F59 /* Ollama AI Chat BoxUITests */,
+			);
+			name = "Ollama AI Chat BoxUITests";
+			packageProductDependencies = (
+			);
+			productName = "Ollama AI Chat BoxUITests";
+			productReference = 66F9A6A72DC600E000933F59 /* Ollama AI Chat BoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66F9A6872DC600DE00933F59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					66F9A68E2DC600DE00933F59 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					66F9A69C2DC600E000933F59 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 66F9A68E2DC600DE00933F59;
+					};
+					66F9A6A62DC600E000933F59 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 66F9A68E2DC600DE00933F59;
+					};
+				};
+			};
+			buildConfigurationList = 66F9A68A2DC600DE00933F59 /* Build configuration list for PBXProject "Ollama AI Chat Box" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66F9A6862DC600DE00933F59;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 66F9A6902DC600DE00933F59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66F9A68E2DC600DE00933F59 /* Ollama AI Chat Box */,
+				66F9A69C2DC600E000933F59 /* Ollama AI Chat BoxTests */,
+				66F9A6A62DC600E000933F59 /* Ollama AI Chat BoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66F9A68D2DC600DE00933F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F9A69B2DC600E000933F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F9A6A52DC600E000933F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66F9A68B2DC600DE00933F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F9A6992DC600E000933F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F9A6A32DC600E000933F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66F9A69F2DC600E000933F59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66F9A68E2DC600DE00933F59 /* Ollama AI Chat Box */;
+			targetProxy = 66F9A69E2DC600E000933F59 /* PBXContainerItemProxy */;
+		};
+		66F9A6A92DC600E000933F59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66F9A68E2DC600DE00933F59 /* Ollama AI Chat Box */;
+			targetProxy = 66F9A6A82DC600E000933F59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		66F9A6AF2DC600E000933F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66F9A6B02DC600E000933F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		66F9A6B22DC600E000933F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Ollama AI Chat Box/Ollama_AI_Chat_Box.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KHWV969S3G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ollama-AI-Chat-Box-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Simple-Compiler.Ollama-AI-Chat-Box";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		66F9A6B32DC600E000933F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Ollama AI Chat Box/Ollama_AI_Chat_Box.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KHWV969S3G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ollama-AI-Chat-Box-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Simple-Compiler.Ollama-AI-Chat-Box";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		66F9A6B52DC600E000933F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Simple-Compiler.Ollama-AI-Chat-BoxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ollama AI Chat Box.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ollama AI Chat Box";
+			};
+			name = Debug;
+		};
+		66F9A6B62DC600E000933F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Simple-Compiler.Ollama-AI-Chat-BoxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ollama AI Chat Box.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ollama AI Chat Box";
+			};
+			name = Release;
+		};
+		66F9A6B82DC600E000933F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Simple-Compiler.Ollama-AI-Chat-BoxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Ollama AI Chat Box";
+			};
+			name = Debug;
+		};
+		66F9A6B92DC600E000933F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Simple-Compiler.Ollama-AI-Chat-BoxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Ollama AI Chat Box";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66F9A68A2DC600DE00933F59 /* Build configuration list for PBXProject "Ollama AI Chat Box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F9A6AF2DC600E000933F59 /* Debug */,
+				66F9A6B02DC600E000933F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		66F9A6B12DC600E000933F59 /* Build configuration list for PBXNativeTarget "Ollama AI Chat Box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F9A6B22DC600E000933F59 /* Debug */,
+				66F9A6B32DC600E000933F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		66F9A6B42DC600E000933F59 /* Build configuration list for PBXNativeTarget "Ollama AI Chat BoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F9A6B52DC600E000933F59 /* Debug */,
+				66F9A6B62DC600E000933F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		66F9A6B72DC600E000933F59 /* Build configuration list for PBXNativeTarget "Ollama AI Chat BoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F9A6B82DC600E000933F59 /* Debug */,
+				66F9A6B92DC600E000933F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66F9A6872DC600DE00933F59 /* Project object */;
+}
